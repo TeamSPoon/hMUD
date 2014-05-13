@@ -8,7 +8,7 @@ var HMUD_Config = {
  * host: window.location.hostname,
  * host: "127.0.0.1",
  */
-    host: window.location.hostname,
+    host: 'mud.prologmoo.com',
     port: 4000,
 
 /*

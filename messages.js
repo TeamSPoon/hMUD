@@ -1,27 +1,27 @@
-/* Copie este arquivo para messages.js caso queira exibir mensagens em português */
+/* Copy this file to messages.js in case you want to display messages in English */
 var HMUD_Messages = {
-    loadingClient: "<span class=\"loading\">Carregando... </span>",
+    loadingClient: "<span class=\"loading\">Loading... </span>",
      clientLoaded: "<span class=\"loaded\">OK!</span><br>",
-       connecting: "<span class=\"connecting\">Conectando ao DeBo MUD... </span>",
-        connected: "<span class=\"connected\">conectado!</span><br>",
-     disconnected: "<br><span class=\"disconnected\">Desconectado.</span><hr>",
-          ioError: "<br><span class=\"error\">Erro de Entrada e Saída.</span>",
-    securityError: "<span class=\"error\">hmm... não deu (Security Error).</span><br>",
+       connecting: "<span class=\"connecting\">Connecting to DeBo MUD... </span>",
+        connected: "<span class=\"connected\">connected!</span><br>",
+     disconnected: "<br><span class=\"disconnected\">Disconnected.</span><hr>",
+          ioError: "<br><span class=\"error\">Input/Output Error.</span>",
+    securityError: "<span class=\"error\">hmm... no way (Security Error).</span><br>",
 
       windowTitle: "DeBo (hMUD)",
  windowTitleAlert: "»»»»»!«««««",
 
-         cmdGuide: "Guia de comandos",
-       selectFont: "Fonte preferida",
+         cmdGuide: "Command reference",
+       selectFont: "Favorite font",
 
-      clearOutput: "Limpar tela",
-            lines: "linhas",
-     preserve1000: "Preservar últimas 1000 linhas",
-             half: "metade",
-              all: "tudo",
+      clearOutput: "Clear screen",
+            lines: "lines",
+     preserve1000: "Preserve last 1000 lines",
+             half: "half",
+              all: "all",
 
-          connect: "Conectar",
-        reconnect: "Reconectar",
-       disconnect: "Desconectar"
+          connect: "Connect",
+        reconnect: "Reconnect",
+       disconnect: "Disconnect"
 };
 
