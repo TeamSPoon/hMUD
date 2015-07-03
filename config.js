@@ -7,8 +7,9 @@ var HMUD_Config = {
  * host: "debomud.org",
  * host: window.location.hostname,
  * host: "127.0.0.1",
+ host: 'prologmoo.com',
  */
-    host: 'prologmoo.com',
+    host: window.location.hostname,
     port: 4000,
 
 /*
@@ -18,10 +19,10 @@ var HMUD_Config = {
     policyPort: 4010,
 
 /* The maximum length of the command history list */
-    maxHistorySize: 100,
+    maxHistorySize: 1000,
 
 /* The minimum length a command should have to be added to the history. */
-    historyMinLength: 3,
+    historyMinLength: 0,
 
 /*
  * If you scroll up, the scroll will be locked at that position, so that you
